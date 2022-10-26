@@ -1,0 +1,70 @@
+body{
+  background-color: #C70039;
+}
+
+.titulo{
+  color: darkgrey;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+  text-decoration:underline;
+}
+
+.banner-imagen{
+  background-color: white
+  background-image: url("./imagenes/banner/asadoargentino.jpg") repeat center;
+  width: 300%
+}
+
+#sobre-titulo{
+  color: lightblue;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#descripcion{
+  font-family: Pacifico,cursive;
+  text-align: center;
+}
+
+#utencillos{
+  color: blue;
+  font-family: fantasy;
+  font-size: 18px;
+}
+#pasos{
+  color: grey;
+  font-family: serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.asado-1{
+  height: 500px;
+  width: 500px;
+}
+
+.footer{
+    background: #bfbfbf;
+}
+.copyright{
+  display: block;
+}
+.icono-whatsapp{
+  bottom: 10px;
+  position: fixed;
+  right: 15px;
+  width: 30px;
+}
+
+.icono-facebook{
+  position: static left;
+  width: 30px;
+}
+
+.icono-instagram{
+  position: static left;
+  width: 30px;
+
+}
