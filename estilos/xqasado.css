@@ -48,26 +48,6 @@ header{
   width: 40px;
 }
 
-.divflex{
-   display: flex;
-   justify-content: space-around;
-   flex-wrap: nowrap;
-}
-
-.flexitem{
-    color: lightblue;
-    font-size: 2em;
-    text-align: center;
-    margin: 20px;
-}
-#sobre-titulo{
-  color: lightblue;
-  font-family: monospace;
-  font-size: 20px;
-  padding: 15px;
-  text-decoration: underline;
-}
-
 .sectionflex{
   display: flex;
   font-size: 1.2em;
@@ -76,61 +56,9 @@ header{
   width: 50%;
 }
 
-#subtitulo{
-  color: lightblue;
-  font-family: monospace;
-  font-size: 50px;
-  text-align: center;
-  text-decoration: underline;
-  padding: 15px;
-}
 
-.img{
-  display: flex;
-  flex-direction: row;
-   text-align: center;
-   height: 250px;
-   padding: 50px;
-   width: 250px;
-}
-
-aside{
-  background: #141616;
-  box-sizing: border-box;
-  flex-direction: row;
-  float: left;
-  padding: 20px;
-  width: 30%;
-}
-
-#subtitulo1{
-  color: blue;
-  font-family: monospace;
-  font-size: 30px;
-  margin: 10px;
-  text-align: center;
-  text-decoration: underline;
-  padding: 15px;
-}
-
-iframe{
-  margin-left: 100px;
-  padding: 50px;
-  text-align: center;
-}
-
-#subtitulo2{
-  color: lightblue;
-  font-family: monospace;
-  font-size: 15px;
-  margin: 10px;
-  text-align: center;
-  text-decoration: underline;
-  padding: 25px;
-}
 #descripcion{
   font-family: Pacifico,cursive;
-  font-size: 20px;
   text-align: center;
 }
 

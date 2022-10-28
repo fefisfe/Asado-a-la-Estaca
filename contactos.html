@@ -1,32 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="./estilos/contacto.css">
-    <meta charset="utf-8">
-    <title>Contactanos</title>
-  </head>
-  <br>
-  <body>
-    <br>
-    <h1 id="titulo">Contactanos</h1>
-    <br>
-    <br>
-    <p class="redes">Telefonos: 0341-544 4444 / 0341-444 4444</p>
-    <br>
-    <br>
-    <br>
-    <p class="redes">Facebook: ASADOS- A LA ESTACA</p>
-    <br>
-    <br>
-    <br>
-    <p class="redes">Instagram: @ASADOS-ESTACA</p>
-    <br>
-    <br>
-    <br>
-  </body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Asado a la Estaca</title>
+        <link rel="shortcut icon" href="./imagenes/iconos/fefisfe.png">
+        <link rel="stylesheet" href="./estilos/contacto.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="./imagenes/banner/asado-a-la-estaca.jpg" alt="Asado a la Estaca"></h1>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
 
-  <footer class="footer">
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
 
-    <p class="copyright">todos los derechos reservados  &copy Copyright fefisfe 2022</p>
-  </footer>
-</html>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(xxx) xxx xxxx">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" required></textarea>
+
+                <fieldset>
+                    <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Telefóno</label>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de Asado a la Estaca?</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+
+        </main>
+        <footer>
+            <img class="icono" src="./imagenes/iconos/fefisfe.png" alt="Logo de Asado a la Estaca">
+            <p class="copyright"> &copy Copyright fefisfe 2022</p>
+        </footer>
+    </body>
+</html
