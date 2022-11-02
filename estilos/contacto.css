@@ -1,39 +1,73 @@
 header{
-    background-color: #BBBBBB;
-    padding: 20px 0;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 20vh;
 }
 
-.caja{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+.banner{
+  height: 27.5vh;
+  margin: 9.4vh;
+  width: 27.5vh;
+}
+
+.icono-whatsapp{
+  bottom: 1.8vh;
+  right: 2.8vh;
+  width: 7.5vh;
+}
+
+.icono-facebook{
+  position: static left;
+  width: 7.5vh;
+}
+
+.icono-instagram{
+  position: static left;
+  width: 7.5vh;
+}
+
+.icono-youtube{
+  position: static left;
+  width: 7.5vh;
+}
+
+.divflex{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: nowrap;
+}
+
+.flexitem{
+    color: lightblue;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+}
+
+
+nav a:hover{
+    color: #c78c19;
 }
 
 body{
   background-color: #fdfdfd;
 }
-nav{
-    position: absolute;
-    top:110px;
-    right: 0;
+
+#subtitulo{
+  color: lightblue;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
 }
 
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
+#subtitulo:hover{
     color: #c78c19;
-    text-decoration: underline;
 }
 
 .productos{

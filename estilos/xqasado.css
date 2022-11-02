@@ -3,9 +3,9 @@ body{
 }
 
 .banner{
-  height: 145px;
-  margin: 50px;
-  width: 145px;
+  height: 27.5vh;
+  margin: 9.4vh;
+  width: 27.5vh;
 }
 
 header{
@@ -28,24 +28,24 @@ header{
 }
 
 .icono-whatsapp{
-  bottom: 10px;
-  right: 15px;
-  width: 40px;
+  bottom: 1.8vh;
+  right: 2.8vh;
+  width: 7.5vh;
 }
 
 .icono-facebook{
   position: static left;
-  width: 40px;
+  width: 7.5vh;
 }
 
 .icono-instagram{
   position: static left;
-  width: 40px;
+  width: 7.5vh;
 }
 
 .icono-youtube{
   position: static left;
-  width: 40px;
+  width: 7.5vh;
 }
 
 .sectionflex{
@@ -56,23 +56,24 @@ header{
   width: 50%;
 }
 
+#subtitulo{
+  color: lightblue;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+#subtitulo:hover{
+  color: #c78c19;
+}
 
 #descripcion{
   font-family: Pacifico,cursive;
   text-align: center;
 }
 
-#utencillos{
-  color: blue;
-  font-family: fantasy;
-  font-size: 18px;
-}
-#pasos{
-  color: grey;
-  font-family: serif;
-  font-size: 11px;
-  text-align: left;
-}
 
 footer{
   align-items: center;

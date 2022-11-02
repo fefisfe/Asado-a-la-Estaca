@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto - Asado a la Estaca</title>
         <link rel="shortcut icon" href="./imagenes/iconos/fefisfe.png">
         <link rel="stylesheet" href="./estilos/contacto.css">
     </head>
     <body>
-        <header>
-            <div class="caja">
-                <h1><img src="./imagenes/banner/asado-a-la-estaca.jpg" alt="Asado a la Estaca"></h1>
+          <header>
+            <img src="./imagenes/banner/asado-a-la-estaca.jpg" alt="foto ilustrativa de asado" class="banner">
+            <h1 class="titulo">Estemos en Contacto</h1>
+            <div class="iconos_flex">
+              <a href="https://wa.me/543417122700?text=Hola/"  target="_blank" rel="noopener noreferrer"><img class="icono-whatsapp" src="./imagenes/iconos/whats.jpg" alt="icono-whatsapp"></a>
+              <a href="https://es-la.facebook.com/" target="_blank" rel="noopener noreferrer"><img class="icono-facebook" src="./imagenes/iconos/face.jpg" alt="icono-facebook"></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img class="icono-instagram" src="./imagenes/iconos/insta.jpg" alt="icono-instagram"></a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><img class="icono-youtube" src="./imagenes/iconos/youtube.jpg" alt="icono-youtube"></a>
             </div>
-        </header>
+         </header>
+         <nav>
+           <a id="subtitulo" href="index.html">Home</a>
+         </nav>
         <main>
             <form>
                 <label for="nombreapellido">Nombre y Apellido</label>
@@ -38,7 +48,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <legend>¿En cuál horario prefiere que lo contactemos?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
