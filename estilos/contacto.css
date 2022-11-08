@@ -1,3 +1,7 @@
+body{
+  background-color: #fdfdfd;
+}
+
 header{
   align-items: center;
   background-color: black;
@@ -51,10 +55,6 @@ header{
 
 nav a:hover{
     color: #c78c19;
-}
-
-body{
-  background-color: #fdfdfd;
 }
 
 #subtitulo{
@@ -184,4 +184,46 @@ td, th{
 .icono{
   position: static left;
   width: 40px;
+}
+
+/*Responsive*/
+
+@media(max-width:767px){
+
+  body{
+    background: #999999;
+  }
+
+  .titulo{
+    font-size: 2em;
+    margin: 2em;
+  }
+
+  #subtitulo{
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+}
+@media (max-width:991px) {
+
+  body{
+    background: #333333;
+  }
+
+  .banner{
+    height: 10vh;
+    margin: 4vh;
+    width: 10vh;
+  }
+
+  .titulo{
+    font-size: 2em;
+    margin: 2em;
+  }
+
+  #subtitulo{
+    font-size: 3em;
+    padding: 10px;
+  }
 }
