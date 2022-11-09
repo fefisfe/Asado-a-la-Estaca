@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/iconos/fefisfe.png">
     <title>Asado a La Estaca</title>
-    <link rel="stylesheet" href="./estilos/reset.css">
-    <link rel="stylesheet" href="./estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="./estilos/reset.css" rel="stylesheet" >
+    <link href="./estilos/style.css" rel="stylesheet" >
     </head>
 
   <body>
@@ -73,18 +74,6 @@
     </ol>
     <br>
 </aside>
-
-<nav>
-  <h2 id="subtitulo1">Algunas recetas similares</h2>
-    <div class="divflex">
-    <a href="https://www.recetas-argentinas.com/recetas/plato-principal/asado-a-la-estaca" class="flexitem">Receta 1</a>
-    <a href="https://www.recetasparaguay.com/recetas/plato-principal/asado-a-la-estaca" class="flexitem">Receta 2</a>
-    <a href="https://cookpad.com/ar/recetas/13494124-carne-asada-a-la-estaca" class="flexitem">Receta 3</a>
-    <a href="https://www.pinterest.es/pin/767934173932693189/" class="flexitem">Receta 4</a>
-      <br>
-    </div>
-</nav>
-
 <section>
   <div>
     <h2 id="subtitulo1">Aquí un video explicativo de El 10 del Asado</h2>
@@ -103,7 +92,43 @@
     <br>
   </div>
 </nav>
-
+<h2 id="subtitulo1">Algunas recetas similares</h2>
+<div class="container">
+  <div class="row">
+    <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
+      <img src="./imagenes/recetas/receta1.jpg" class="card-img-top" alt="Asado de Receta 1">
+      <div class="card-body">
+        <h5 class="card-title">Receta 1</h5>
+        <p class="card-text">De la mano de Recetas de Argentinas.</p>
+        <a href="https://www.recetas-argentinas.com/recetas/plato-principal/asado-a-la-estaca" class="btn btn-outline-primary btn btn-outline-danger">Ir a la Receta</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
+      <img src="./imagenes/recetas/receta2.jpg" class="card-img-top" alt="Asado de Receta 2">
+      <div class="card-body">
+        <h5 class="card-title">Receta 2</h5>
+        <p class="card-text">Receta de nuestos vecinos Recestas de Paraguay.</p>
+        <a href="https://www.recetasparaguay.com/recetas/plato-principal/asado-a-la-estaca" class="btn btn-outline-primary btn btn-outline-danger" >Ir a Receta</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
+      <img src="./imagenes/recetas/receta3.jpg"  class="card-img-top" alt="Asado de Receta 3">
+      <div class="card-body">
+        <h5 class="card-title">Receta 3</h5>
+        <p class="card-text">Infaltable al receta de Cookpad.</p>
+        <a href="https://cookpad.com/ar/recetas/13494124-carne-asada-a-la-estaca" class="btn btn-outline-primary btn btn-outline-danger">Ir a Receta</a>
+      </div>
+    </div>
+    <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 17rem;">
+      <img src="./imagenes/recetas/receta4.jpg" class="card-img-top" alt="Asado de Receta 4">
+      <div class="card-body">
+        <h5 class="card-title">Receta 4</h5>
+        <p class="card-text">Una màs desde Pinterest.</p>
+        <a href="https://www.pinterest.es/pin/767934173932693189/" class="btn btn-outline-primary btn btn-outline-danger">Ir a Receta</a>
+      </div>
+    </div>
+  </div>
+</div>
 <footer>
     <div>
       <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.7444849832586!2d-60.70606568550569!3d-32.93134847844258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b653372bb0a749%3A0x812720c54573d8!2sSol%C3%ADs%20309%2C%20S2008EWI%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1666983816383!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -123,5 +148,6 @@
       <p>Rosario - Santa Fe</p>
     </section>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

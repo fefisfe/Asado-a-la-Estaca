@@ -165,6 +165,29 @@ iframe{
   text-align: left;
 }
 
+.card{
+  background-color: #969696;
+}
+
+.card-img-top{
+  width: 250px;
+  height: 300px;
+}
+
+.card-title{
+  color: lightblue;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.card-title:hover{
+  color: #c78c20;
+}
+
+.card-text{
+  font-family: Cursive;
+  font-size: 1em;
+}
 
 footer{
   align-items: center;
