@@ -54,6 +54,13 @@ header{
    flex-wrap: nowrap;
 }
 
+.cambiar {
+    border: none;
+    color: #117864;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
 a:hover{
   color: #c78c19;
 }
@@ -119,7 +126,7 @@ aside{
 
 iframe{
   margin-left: 100px;
-  padding: 50px;
+  padding: 200;
   text-align: center;
 }
 
@@ -195,12 +202,16 @@ footer{
   color: #FFFFFF;
   display: flex;
   flex-wrap: wrap;
-  min-height: 20vh;
+  min-height: 100px;
   justify-content: space-between;
   text-align: center;
   padding: 10px 10px;
 }
 
+.mapa{
+  width: 110px;
+  height: 110px;
+}
 h3{
   font-size: 13px;
 }
